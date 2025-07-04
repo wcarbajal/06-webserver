@@ -15,7 +15,7 @@ app.use( express.static('public'))
 app.get('/', (req, res) => {
   res.render('home', {
     nombre: 'Wuilmer Carbajal',
-    titulo: 'Curso de Node'
+    titulo: 'Portal de procesos'
   })
 })
 
